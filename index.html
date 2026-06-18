@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Cinzel:wght@400;600&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="megumin.png">
+    <title>⚔warhammer store⚔</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-brand">
+            <h1 class="nav-title">WARHAMMER STORE</h1>
+        </div>
+
+        <button class="logo cart-wrap">
+            🛒 Carrito
+        </button>
+    </nav>
+
+    <div class="page">
+        <p class="section-title">— Catálogo —</p>
+        <div class="section-line"></div>
+        <div class="grid"></div>
+    </div>
+
+    <div class="contedor-del-carrito">
+        <div class="sidebar-footer">
+            <div class="total-row">
+                <span class="total-label">Total</span>
+                <span class="total-val" id="total-val">$0</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="overlay" id="overlay"></div>
+
+    <div class="modal" id="modal">
+        <div class="modal-inner">
+            <button class="modal-close" id="modal-close">✕</button>
+            <video id="checkout-video" autoplay controls>
+                <source src="https://www.youtube.com/watch?v=oHg5SJYRHA0" type="video/mp4">
+            </video>
+            <p class="modal-msg">¡Gracias por tu compra! 🎉</p>
+        </div>
+    </div>
+
+    <script type="module" src="scripts.js"></script>
+</body>
+</html>
